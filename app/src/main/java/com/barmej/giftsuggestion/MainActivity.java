@@ -2,8 +2,9 @@ package com.barmej.giftsuggestion;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Array that hold drawable images ids
      */
-    private int[] mGiftsPictures = {R.drawable.gift_1,
+    private int[] mGiftsPictures = { R.drawable.gift_1,
             R.drawable.gift_2, R.drawable.gift_3, R.drawable.gift_4,
             R.drawable.gift_5, R.drawable.gift_6, R.drawable.gift_7,
             R.drawable.gift_8, R.drawable.gift_9, R.drawable.gift_10};
